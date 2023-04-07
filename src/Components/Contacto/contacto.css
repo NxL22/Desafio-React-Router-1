@@ -1,0 +1,8 @@
+.contacto-class {
+    background: linear-gradient(90deg, rgba(6,36,0,0.9808123078332895) 22%, rgba(34,121,9,0.8603641285615808) 45%, rgba(65,204,60,0.9415966215587798) 81%); 
+    height: 94vh;
+    width: 100vh;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
