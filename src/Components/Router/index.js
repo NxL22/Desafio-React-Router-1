@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 
 import Home from '../Home';
 import Contacto from '../contacto';
+import Gatitos from '../Gatitos';
 
 
 export default () => {
@@ -12,6 +13,7 @@ export default () => {
         <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/contacto' element={<Contacto />} />
+            <Route path='/Gatitos' element={<Gatitos />} />
         </Routes>
     )
 }
@@ -20,5 +22,3 @@ export default () => {
 //lo del menu pero no lo logre.
 //y tambien intente meter imagenes y no pude y eso que lo hice en la carpeta public
 //donde tenia entendido que se ponian.
-//y por ultimo intente tambien hacer que gatitos se le pudiera ver el contenido agregando
-//las rutas y eso pero normalizeHash, tampoco se logro.
