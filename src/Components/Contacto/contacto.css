@@ -1,8 +1,37 @@
 .contacto-class {
-    background: linear-gradient(90deg, rgba(6,36,0,0.9808123078332895) 22%, rgba(34,121,9,0.8603641285615808) 45%, rgba(65,204,60,0.9415966215587798) 81%); 
-    height: 94vh;
-    width: 100vh;
-    color: aliceblue;
-    display: flex;
-    align-items: center;
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(20, 55, 189, 0.913585417076987) 18%, rgba(93, 106, 244, 0.8603641285615808) 41%, rgba(82, 121, 235, 0.9415966215587798) 70%);
+  ;
+}
+
+.contacto-class h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contacto-class p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.contacto-class form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contacto-class label {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contacto-class input,
+.contacto-class textarea {
+  font-size: 16px;
+}
+
+.contacto-class button {
+  margin-top: 20px;
 }
